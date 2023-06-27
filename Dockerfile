@@ -1,6 +1,7 @@
 FROM python:3-slim
 
 ENV BOT_TOKEN=""
+ENV MQTT_PASSWORD=""
 
 COPY requirements.txt requirements.txt
 
